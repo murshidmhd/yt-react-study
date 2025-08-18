@@ -11,6 +11,7 @@
 // import CounterTwo from "./components/for hooks/CounterTwo";
 // import CounterThree from "./components/for hooks/CountetThree";
 import CounterThree from "./components/for hooks/CounterThree";
+import Manager from "./components/Manager";
 import User from "./components/User";
 import UserManager from "./components/User second";
 
@@ -24,9 +25,8 @@ function App() {
   // }
   return (
     <>
- 
       {/* <UserManager /> */}
-      
+      <Manager />
     </>
   );
 }
