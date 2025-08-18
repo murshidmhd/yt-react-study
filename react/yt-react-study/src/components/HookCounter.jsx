@@ -15,7 +15,6 @@ function HookCounter() {
       <button onClick={() => setCount((prv) => prv - 1)}>dec</button>
       <button onClick={() => setCount(0)}>reset</button>
       <button onClick={incFive}> inc 5</button>
-      <button> </button>
     </>
   );
 }
